@@ -1,0 +1,20 @@
+/* src/index.css */
+
+@import 'tailwindcss';
+
+:root {
+  /* 💡 1. ฟอนต์ K2D (ตั้งเป็น Default Sans) */
+  --font-k2d: 'K2D', sans-serif;
+  --tw-font-sans: var(--font-k2d);
+
+  /* 💡 2. เพิ่มฟอนต์ Pirata One */
+  --font-pirata: 'Pirata One', serif; /* ใช้ serif เป็น fallback ที่เหมาะสมกว่า */
+
+  /* 💡 3. ตัวอย่าง: กำหนดให้ font-serif ชี้ไปที่ Pirata One (ทางเลือก) */
+  /* --tw-font-serif: var(--font-pirata); */
+}
+
+/* 2. (ทางเลือก) บังคับใช้ฟอนต์ K2D ทั่วทั้ง Body โดยใช้ Custom Property */
+body {
+  font-family: var(--font-k2d);
+}
