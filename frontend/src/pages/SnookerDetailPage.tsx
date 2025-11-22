@@ -281,7 +281,7 @@ const SnookerDetailPage = () => {
             <div className="relative">
               <img
                 className="w-full h-auto md:h-[50vh] object-cover rounded-xl shadow-lg"
-                src="/public/images/index/factory.jpg"
+                src="/images/index/factory.jpg"
                 alt="โรงงานผลิต"
               />
               <div className="absolute bottom-4 left-4 bg-black/70 text-white px-4 py-2 rounded-lg">
