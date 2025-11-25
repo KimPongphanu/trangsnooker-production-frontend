@@ -254,9 +254,7 @@ const SnookerDetailPage = () => {
               <span className="text-3xl text-center">
                 <FaFaceGrinStars />
               </span>
-              <p className="font-semibold text-gray-800 mt-2">
-                การติดตั้งติดตั้ง
-              </p>
+              <p className="font-semibold text-gray-800 mt-2">การติดตั้ง</p>
               <p className="text-sm text-gray-500">โดยทีมช่างมืออาชีพ</p>
             </div>
           </div>
